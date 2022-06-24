@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+    <div class="contendor">
+        <div class="menu">
+        <div id="logo">
+        <img src="./img/computer.png" alt="">
+        </div>
+        <h1>Mi formulario</h1>
+        <main>
+            <nav>
+                <div class="enlaces">
+                <a href="#">inicio</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+                </div>
+            </nav>
+            </div>
+        </main>
+        <h2>Gracias por visitarnos, lo invitamos a conocernos</h2>
+        <div class="formulario">
+            <form action="POST">
+                <div class="datos">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Escriba su nombre" >
+
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" require max="18">
+                        </div>
+                        <div class="consulta">
+                    <label for="consulta">Consulta</label>
+                    <textarea name="consulta" id="consulta" cols="30" rows="10"></textarea>
+                    </div>
+                    <button>
+                        <div class="boton">
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Borrar">
+                        </div>
+                    </button>
+            </form>
+        </div>
+    </div>
+    </header>
+    <footer>
+        <h5>Gracias por visitar nuestra web si quiere contactarse puede hacerlo <a href="mailto:suservi@gots.com">nuestromail</a></h5>
+    </footer>
+</body>
+</html>

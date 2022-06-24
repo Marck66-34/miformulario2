@@ -1,0 +1,196 @@
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      background-image: url("../img/77420df3f9e33db5b79ee25455d3340e.jpg");
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 25px;
+      color: wheat;
+  }
+
+  h2 {
+      padding: 12px;
+      font-size: 25px;
+      color: greenyellow;
+  }
+
+  h5 {
+      padding: 12px;
+      font-size: 15px;
+      color: greenyellow;
+  }
+
+  h5 a {
+      color: white;
+      text-decoration: none;
+
+  }
+
+  .menu {
+      max-width: 1000px;
+      width: 40%;
+      margin: auto;
+      padding: 50px 0;
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  #logo {
+      width: 60%;
+      display: block;
+      justify-content: center;
+      margin: auto;
+      border-radius: 5px;
+  }
+
+  #logo img {
+      width: 200px;
+      display: block;
+      margin: auto;
+  }
+
+  nav {
+      background: #1777b8;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 100%;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 15px 20px;
+      border-radius: 5px;
+  }
+
+  nav .enlaces {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+  }
+
+  nav .enlaces a {
+      margin-left: 70px;
+      text-decoration: none;
+      color: rgba(250, 246, 246, 0.966);
+      font-size: 20px;
+  }
+
+  .formulario {
+      width: 100%;
+      height: auto;
+      display: block;
+
+  }
+
+  .datos {
+      display: flex;
+      flex-direction: column;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+
+
+  }
+
+  #nombre {
+      align-items: center;
+      background: none;
+      border: none;
+      border-bottom: solid red 1px;
+      width: 40%;
+      font-size: 30px;
+      display: block;
+      margin: auto;
+      padding: 10px;
+
+  }
+
+  .datos label {
+      text-align: center;
+      padding: 5px;
+  }
+
+  #nombre:placeholder-shown {
+      font-size: 15px;
+      text-align: center;
+  }
+
+  #mail {
+      background: none;
+      border: none;
+      border-bottom: solid red 1px;
+      width: 40%;
+      font-size: 30px;
+      display: block;
+      margin: auto;
+  }
+
+  .consulta {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 15px;
+  }
+
+  .consulta label {
+      text-align: center;
+      padding: 5px;
+      color: white;
+  }
+
+  .consulta textarea {
+      border-radius: 10px;
+      border-color: red;
+      background: none;
+      display: block;
+      margin: auto;
+      width: 50%;
+  }
+
+  #mensaje {
+      display: block;
+      margin: auto;
+  }
+
+  button {
+      width: 40%;
+      display: block;
+      margin: auto;
+      background: none;
+      border: none;
+      padding: 20px;
+
+  }
+
+  .boton {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+
+  .boton input {
+      color: white;
+      background-color: #1778b898;
+      width: 100px;
+      border-radius: 5px;
+      border: none;
+      height: 50px;
+  }
+
+  .boton input:hover {
+      background-color: rgba(170, 25, 25, 0.671);
+      width: 120px;
+  }
